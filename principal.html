@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="icon" href="img/logo.png">
+    <title>Principal NAS</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <header data-aos="none">
+        <div class="logo">
+            <a href="principal.html"><img src="img/logo.png" id="logo-web" class="logo-web" width="80"></a>
+        </div>
+
+        <nav class="navBar margen-menu"> 
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul id="lista-menu">
+              <li><a href="principal.html" id="active" class="bordes-separacion">INICIO</a></li>
+              <li><a href="sobremi.html" class="bordes-separacion">SOBRE MÍ</a></li>
+              <li><a href="misproyectos.html" class="bordes-separacion">PROYECTOS</a></li>
+              <li><a href="contacto.html" class="bordes-separacion">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="superior-pantalla">
+        <section class="container contenidos1" data-aos="fade-in">
+            <div class="texto2">
+                <h2>Noé Andreu Serrano</h2>
+                <p>ESPECIALISTA EN MULTIMEDIA, DISEÑO Y DESARROLLO DIGITAL</p>
+                <button><a href="sobremi.html">Conóceme</a></button>
+            </div>
+            <div class="c300-principal">
+                <img src="img/imagen_principal2.png">
+            </div>
+        </section>
+
+        <section class="container glass-card3" data-aos="fade-in">
+            <div class="contenidos10">
+                <div class="principal-importante c100">
+                    <img src="img/proyectos.png">
+                    <h10>+30 Proyectos completados</h10>
+                </div>
+
+                <div class="principal-importante c100">
+                    <img src="img/disciplina.png">
+                    <h10>Múltiples disciplinas de trabajo</h10>
+                </div>
+
+                <div class="principal-importante c100">
+                    <img src="img/herramientas.png">
+                    <h10>Dominio de una infinidad de herramientas</h10>
+                </div>
+            </div>
+        </section>
+
+        <section class="contenidos2" data-aos="fade-in">
+            <div class="container">
+                <div class="texto3">
+                    <h2>Conoce algunos de mis proyectos</h2>
+                </div>
+
+                <div class="slider-container">
+                    <div class="slider-content">
+                      <div class="slide-item" onclick="toggleDescription('diseno-grafico')">Diseño Gráfico</div>
+                      <div class="slide-item" onclick="toggleDescription('diseno-3d')">Diseño 3D</div>
+                      <div class="slide-item" onclick="toggleDescription('diseno-orientado')">Diseño Orientado</div>
+                      <div class="slide-item" onclick="toggleDescription('diseno-especial')">Diseño Especial</div>
+                      <div class="slide-item" onclick="toggleDescription('desarrollo-web')">Desarrollo Web y Apps</div>
+                      <div class="slide-item" onclick="toggleDescription('programacion')">Programación</div>
+                      <div class="slide-item" onclick="toggleDescription('videos')">Vídeos</div>
+                      <div class="slide-item" onclick="toggleDescription('animaciones')">Animaciones</div>
+                      <div class="slide-item" onclick="toggleDescription('otros-inventos')">Otros Inventos</div>
+                    </div>
+                </div>
+                  <div id="defecto" class="description2">¡HAZ CLICK SOBRE LOS BOTONES SUPERIORES PARA DESCUBRIR EN QUÉ CONSISTE CADA MODALIDAD DE TRABAJO Y UN EJEMPLO!</div>
+                  <div id="diseno-grafico" class="description"><strong>DISEÑO GRÁFICO:</strong><br />  Como diseñador gráfico, creo identidades visuales, logotipos, elementos gráficos, banners y más, utilizando herramientas como Adobe Illustrator, InDesign o Photoshop.<br /> Por ejemplo: Un cartel promocional para un evento cultural, una infografía sobre el cambio climático, el logotipo de una marca...<br>
+                    <figure class="c300">
+                        <img src="img/cartel1.jpg" alt="Ejemplo Diseño Gráfico Infografía">
+                        <figcaption>Ejemplo Diseño Gráfico Infografía</figcaption>
+                    </figure>
+                  </div>
+                  <div id="diseno-3d" class="description"><strong>DISEÑO 3D:</strong><br /> En diseño 3D, desarrollo modelos y animaciones en Maya o Fusion, entre otros, aplicando técnicas de modelado y renderizado.<br /> Por ejemplo: Modelado de un personaje 3D para un cortometraje o modelado de un determinado instrumento antes de su fabricación.<br>
+                    <figure class="c300">
+                        <img src="img/3d-6.png" alt="Ejemplo Diseño 3D Personaje">
+                        <figcaption>Ejemplo Diseño 3D Personaje</figcaption>
+                    </figure>
+                    </div>
+                  <div id="desarrollo-web" class="description"><strong>DESARROLLO WEB Y APP:</strong><br /> Desarrollo webs y aplicaciones funcionales con HTML, CSS y JavaScript en la parte frontend y PHP y MySQL en la parte backend. Además, mi trabajo consiste en realizar igualmente todo tipo de wireframes antes del desarrollo de las plataformas y de adaptar estas a un diseño responsive una vez iniciado el proceso.<br /> Por ejemplo: Un sitio web interactivo para un comercio o una plataforma para una aplicación.<br>
+                    <figure>
+                        <img class="c300-3" src="img/wireframe8.png" alt="Ejemplo Wireframe Web">
+                        <img class="c100-3" src="img/wireframe15.png" alt="Ejemplo Wireframe App">
+                        <figcaption>Ejemplos de wireframes</figcaption>
+                    </figure>
+                </div>
+                  <div id="diseno-especial" class="description"><strong>DISEÑO ESPECIAL:</strong><br /> Con diseño especial me refiero a un tipo de diseño orientado hacia determinadas técnicas de fabricación como el vinilado o el corte láser, además de los diferentes materiales utilizados para ello como la madera o el metal.<br /> Por ejemplo: Diferentes juegos de mesa realizados mediante corte láser en madera.<br>
+                    <figure class="c300">
+                        <img src="img/vinilo2.png" alt="Ejemplo Diseño para Vinilo">
+                        <figcaption>Ejemplo Diseño para Vinilo</figcaption>
+                    </figure>
+                </div>
+                  <div id="diseno-orientado" class="description"><strong>DISEÑO ORIENTADO:</strong><br /> El diseño orientado busca soluciones específicas para cada proyecto, adaptando interfaces y experiencias.<br /> Por ejemplo: Prototipos UX/UI para una app en Figma.<br>
+                    <figure>
+                        <img class="c300-3" src="img/wireframe2.png" alt="Ejemplo Wireframe Web">
+                        <img class="c100-3" src="img/wireframe12.png" alt="Ejemplo Wireframe App">
+                        <figcaption>Ejemplos de wireframes en Figma</figcaption>
+                    </figure></div>
+                  <div id="videos" class="description"><strong>VÍDEOS:</strong><br /> Produzco y edito vídeos creativos con Premiere y After Effects, incluyendo cortos, videoclips, anuncios y más.<br /> Por ejemplo: Un vídeo promocional para una startup o un anuncio para un nuevo producto.<br /><iframe class="video-pantalla" src="https://www.youtube.com/embed/KkspURMTgaQ?si=rX6WYikNtVuS7vUi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                  <div id="animaciones" class="description"><strong>ANIMACIONES:</strong><br /> Creo animaciones 2D y 3D que dan vida a ideas y conceptos, usando After Effects.<br /> Por ejemplo: Animación de introducción para un canal de YouTube o para una escena de una serie de dibujos animados.<br /><iframe class="video-pantalla" src="https://www.youtube.com/embed/u74sRkb3dXk?si=BcuTruRc6HGNXXee" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                  <div id="programacion" class="description"><strong>PROGRAMACIÓN:</strong><br /> En lo que a programación se refiere, soy capaz tanto de buscar soluciones ágiles a procesos costosos como de idear nuevos proyectos en diferentes lenguajes.<br /> Por ejemplo: Un programa ágil en Phyton o el desarrollo de un nuevo videojuego.<br /><iframe class="video-pantalla" src="https://www.youtube.com/embed/E_inCPdhW_I?si=pYizukBXJhFgsBfp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                  <div id="otros-inventos" class="description"><strong>OTROS INVENTOS:</strong><br /> Mis otros proyectos incluyen soluciones tecnológicas, prototipos, proyectos personales y experimentación con Arduino.<br /> Por ejemplo: Un sistema de domótica para una vivienda.<br /><iframe class="video-pantalla" src="https://www.youtube.com/embed/noO97-yh-DQ?si=lY0pdicdeu6X6kq7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            </div>
+        </section>
+
+        <section class="container contenidos3" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1500">
+            <div class="c150-2">
+                <img src="img/imagen_p2.png">
+            </div>
+
+            <div class="texto3">
+                <p class="texto-principal">Pero... ¡¡ESTO ES SÓLO EL COMIENZO!!</p>
+                <p class="texto-principal2">¿Te gustaría saber más acerca de mi trabajo?</p>
+                <button><a href="misproyectos.html">Ver proyectos</a></button>
+            </div>
+        </section>
+
+        <section class="container separacion-superior contenidos2" data-aos="fade-in">
+            <div class="texto3">
+                <h2>¿Qué puedo hacer por ti?</h2>
+            </div>
+
+            <p class="texto10">Actualmente me encuentro buscando oportunidades de trabajo, por lo que si crees que encajo en tu equipo, <strong>¡HABLEMOS!</strong></p>
+
+            <div class="contenidos12">
+                <ul class="glass-card4" id="oportunidades-trabajo">
+                    <li><strong>Disponibilidad:</strong>Inmediata</li>
+                    <li><strong>Modalidad:</strong>Remoto, semipresencial o presencial</li>
+                    <li><strong>Áreas de interés:</strong>Cualquiera de las anteriores: desarrollo web y app (frontend o backend), diseño gráfico y 3D, edición de vídeos...</li>
+                    <li><strong>Hard skills:</strong>Diseño gráfico, UX, UI, 3D; Desarrollo frontend y backend; Programación; Fotografía y vídeo.</li>
+                    <li><strong>Soft skills:</strong>Trabajo en equipo, comunicación efectiva, resolución de problemas, creatividad e innovación, adaptabilidad y gestión del tiempo.</li>
+                </ul>
+
+                <div class="texto3 glass-card3" data-aos="fade-left" data-aos-delay="400" data-aos-duration="2000">
+                    <p class="texto-principal2">¿Buscas talento? ¡Aquí estoy!</p>
+                    <button><a href="contacto.html">Contacto</a></button>
+                </div>
+            </div>
+
+            <div id="typing-container" data-aos="fade-in">
+                <p class="typing-effect line1 trabajo-profesional">"La única forma de hacer un gran trabajo es amar lo que haces. Si aún no lo has encontrado,</p>
+                <p class="typing-effect line2 trabajo-profesional">sigue buscando. No te conformes."<strong> - Steve Jobs</strong></p></p>
+            </div>
+        </section>
+
+        <section class="container contenidos1 organizacion glass-card" data-aos="fade-in">
+            <div class="formulario">
+                <h3>Contacta conmigo</h3>
+                <form id="contacta-conmigo" action="https://formspree.io/f/xnnjlobg" method="POST">
+                    <input type="text" name="name" id="nombre" placeholder="Introduzca nombre" required>
+                    <input type="text" name="asunto" id="asunto" placeholder="Asunto de la consulta" required>
+                    <input type="email" name="email" id="email" placeholder="E-mail de contacto" required>
+                    <textarea name="message" placeholder="Contenido de la consulta" required></textarea>
+                    <button type="submit"><a>Enviar</a></button>
+                </form>
+            </div>
+            <div class="formulario">
+                <h3>CV</h3>
+                <iframe src="https://drive.google.com/file/d/1R5sFiiQZc4rchCToS2s9ae-RnSNUDJT_/preview"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer c80-footer">
+        <a href="principal.html"><img src="img/logo2.png" id="logo-web"></a>
+        <p>&copy; Portfolio - Noé Andreu Serrano</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

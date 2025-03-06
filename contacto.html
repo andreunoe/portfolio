@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto NAS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <header>
+        <div class="logo margen-logo">
+            <a href="principal.html"><img src="logo.png" id="logo-web" class="logo-web" width="80"></a>
+        </div>
+
+        <nav class="navBar"> 
+            <div class="menu-toggle" id="menu-toggle">☰</div> 
+            <ul id="lista-menu">
+              <li><a href="principal.html" class="bordes-separacion">INICIO</a></li>
+              <li><a href="sobremi.html" class="bordes-separacion">SOBRE MÍ</a></li>
+              <li><a href="misproyectos.html" class="bordes-separacion">PROYECTOS</a></li>
+              <li><a href="contacto.html" id="active" class="bordes-separacion">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="superior2">
+        <h4 data-aos="fade-in">¡Contacta conmigo como quieras!</h4>
+
+        <section class="container contenidos6">
+            <div class="distancia c300-2" data-aos="fade-right">
+                <img src="contacto.png">
+            </div>
+
+            <div class="texto8 sup-video" data-aos="fade-left">
+                <div class="distancia2 contenidos4 c50">
+                    <img src="telefono-viejo.png">
+                    <p>Tlf: +34 639935712</p>
+                </div>
+                
+                <div class="distancia2 contenidos4 c50">
+                    <img src="correo-electronico (1).png">
+                    <p>E-mail: noealbalate27@gmail.com</p>
+                </div>
+
+                <div class="distancia2 contenidos4 c50">
+                    <img src="localizacion.png">
+                    <p>Albalate del Arzobispo, Teruel</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="container formulario2 glass-card2" data-aos="fade-in">
+            <h5>O si lo prefieres, rellena el formulario</h5>
+            <form id="contacta-conmigo" action="https://formspree.io/f/xnnjlobg" method="POST">
+                <input type="text" name="name" id="nombre" placeholder="Introduzca nombre" required>
+                <input type="text" name="asunto" id="asunto" placeholder="Asunto de la consulta" required>
+                <input type="email" name="email" id="email" placeholder="E-mail de contacto" required>
+                <textarea name="message" placeholder="Contenido de la consulta" required></textarea>
+                <button><a>Enviar</a></button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer c80-footer">
+        <a href="principal.html"><img src="logo2.png" id="logo-web" width="80"></a>
+        <p>&copy; Portfolio - Noé Andreu Serrano</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
