@@ -360,6 +360,7 @@ h3{
 .formulario p{
     text-decoration: none;
     color: black;
+    padding: 2%;
 }
 .formulario button:hover{
     border: 3px solid black;
@@ -562,6 +563,7 @@ h5{
 .formulario2 p{
     text-decoration: none;
     color: black;
+    padding: 2%;
 }
 .formulario2 button:hover{
     border: 3px solid black;
