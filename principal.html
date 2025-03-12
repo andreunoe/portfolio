@@ -184,5 +184,25 @@
         <p>&copy; Portfolio - Noé Andreu Serrano</p>
     </footer>
     <script src="script.js"></script>
+    <script>
+        const $form = document.querySelector('#form');
+        $form.addEventListener ('submit', handleSubmit)
+
+        async function handleSubmit(event){
+            event.preventDefault()
+            const form = new FormData(this)
+            fetch (this.action, {
+                method: this.method,
+                body: form,
+                headers: {
+                    'Accept': 'aplication/json'
+                }
+            })
+        }
+        if (response.ok){
+            this.reset()
+            alert('Gracias por contactar conmigo. Contactaré contigo en cuanto pueda :)')
+        }
+    </script>
 </body>
 </html>
