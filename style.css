@@ -347,7 +347,6 @@ h3{
 .formulario button{
     font-family: "Rubik", serif;
     text-decoration: none;
-    color: black;
     font-weight: bold;
     font-size: 20px;
     padding: 2%;
@@ -358,7 +357,7 @@ h3{
     color: white;
     transition: all 0.3s ease; 
 }
-.formulario a{
+.formulario p{
     text-decoration: none;
     color: black;
 }
@@ -550,7 +549,6 @@ h5{
 .formulario2 button{
     font-family: "Rubik", serif;
     text-decoration: none;
-    color: black;
     font-weight: bold;
     font-size: 18px;
     padding: 0.75%;
@@ -561,7 +559,7 @@ h5{
     color: white;
     transition: all 0.3s ease; 
 }
-.formulario2 a{
+.formulario2 p{
     text-decoration: none;
     color: black;
 }
