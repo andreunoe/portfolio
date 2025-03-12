@@ -410,6 +410,9 @@ textarea{
     color: white;
     margin-top: 5em;
 }
+.footer img{
+    padding-right: 1em;
+}
 
 .contenidos4{
     display: flex;
