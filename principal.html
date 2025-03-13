@@ -184,15 +184,15 @@
         <p>&copy; Portfolio - Noé Andreu Serrano</p>
     </footer>
     <script>
-        const $form = document.querySelector('#form')
-        $form.addEventListener ('submit', handleSubmit)
+        const $contacta-conmigo = document.querySelector('#contacta-conmigo')
+        $contacta-conmigo.addEventListener ('submit', handleSubmit)
 
         async function handleSubmit(event){
             event.preventDefault()
-            const form = new FormData(this)
+            const contacta-conmigo = new FormData(this)
             const response = await fetch (this.action, {
                 method: this.method,
-                body: form,
+                body: contacta-conmigo,
                 headers: {
                     'Accept': 'application/json'
                 }
