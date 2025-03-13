@@ -197,11 +197,11 @@
                     'Accept': 'application/json'
                 }
             })
-        }
-        if (response.ok){
-            this.reset()
-            alert('Gracias por contactar conmigo. Contactaré contigo en cuanto pueda :)')
-        }
+            if (response.ok){
+                this.reset()
+                alert('Gracias por contactar conmigo. Contactaré contigo en cuanto pueda :)')
+            }
+        } 
     </script>
     <script src="script.js"></script>
 </body>
