@@ -184,7 +184,7 @@
         <p>&copy; Portfolio - Noé Andreu Serrano</p>
     </footer>
     <script>
-        const $form = document.querySelector('#form');
+        const $form = document.querySelector('#form')
         $form.addEventListener ('submit', handleSubmit)
 
         async function handleSubmit(event){
@@ -194,7 +194,7 @@
                 method: this.method,
                 body: form,
                 headers: {
-                    'Accept': 'aplication/json'
+                    'Accept': 'application/json'
                 }
             })
         }
