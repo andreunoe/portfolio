@@ -4520,12 +4520,14 @@ h10{
         font-family: 'Lilita One';
         font-size: 12px;
         color: white;
+        text-align: center;
     }
     
     .texto1{
         font-family: "Rubik", serif;
         font-size: 12px;
         color: white;
+        text-align: center;
     }
 
     #imagen_fondo img{
