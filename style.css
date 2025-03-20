@@ -4549,7 +4549,7 @@ h10{
         align-items: center;
         justify-content: center;
         height: 50%;
-        width: 60vh;
+        width: 100%;
         background: black;
     }
     .cuadro button{
